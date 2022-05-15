@@ -1,0 +1,21 @@
+{
+  "name": "web-app-developmen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "behavior.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "http-server": "^14.0.0",
+    "nodemailer": "^6.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

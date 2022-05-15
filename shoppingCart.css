@@ -1,0 +1,56 @@
+
+/* SHOEGANG - SHOPPING CART PAGE (CSS) */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 100%;
+    min-height: 102vh;
+    background: linear-gradient( 45deg, #549ce0, #b7dafc);
+    color: rgb(39, 71, 177);
+    position: relative;
+}
+
+.navigation{
+    width: 90%;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: -15px;
+    margin-right: 12px;
+}
+
+.menu-icon{
+    cursor: pointer;
+    width: 30px;
+    margin-left: 60px;
+}
+
+.nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li{
+    align-items: right;
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: darkblue;
+    font-size: 17px;
+    padding: 5px 2px;
+}
+
+nav ul li a:hover{
+    color: darkblue;
+}
