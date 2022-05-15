@@ -1,0 +1,51 @@
+*{
+    font-family: 'Bebas Neue', cursive;
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+body{
+
+    background: #549ce0;
+}
+
+.form-container{
+    position: relative;
+    left: 25%;
+    width: 50%;
+    height: 100vh;
+    background-color: rgb(105, 180, 223);
+}
+
+.contact-form{
+
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 80%;
+    height: 600px;
+}
+
+input,
+textarea{
+    width: 100%;
+    margin-top: 16px;
+    border: 1px solid black;
+}
+
+.submit{
+
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+    cursor: pointer;
+}
+
+.submit:hover{
+
+    opacity: 1;
+    color:#549ce0;
+}
